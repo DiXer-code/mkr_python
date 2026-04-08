@@ -6,6 +6,3 @@ def read_text_file(file_path):
         return file.read()
 
 
-def count_sentences(text):
-    sentence_endings = re.findall(r"\.\.\.|[.!?]", text)
-    return len(sentence_endings)
