@@ -9,3 +9,10 @@ def read_text_file(file_path):
 def count_sentences(text):
     sentence_endings = re.findall(r"\.\.\.|[.!?]", text)
     return len(sentence_endings)
+
+
+def count_words(text):
+    cleaned_text = re.sub(r"\.\.\.|[.!?]", " ", text)
+    words = re.split(r"[,\s:;]+", cleaned_text)
+    words = [word for word in words if word]
+    return len(words)
