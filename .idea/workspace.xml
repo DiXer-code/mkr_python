@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d5900c3-e737-473a-b436-4404da68d034" name="Changes" comment="Add count_sentences function" />
+    <list default="true" id="0d5900c3-e737-473a-b436-4404da68d034" name="Changes" comment="Add script entry point">
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +134,47 @@
       <option name="project" value="LOCAL" />
       <updated>1775645752889</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add read_text_file function">
+      <option name="closed" value="true" />
+      <created>1775645986963</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775645986963</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add count_sentences function">
+      <option name="closed" value="true" />
+      <created>1775646000848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775646000848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add count_words function">
+      <option name="closed" value="true" />
+      <created>1775646207483</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775646207483</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add analyze_text_file function">
+      <option name="closed" value="true" />
+      <created>1775646546213</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775646546213</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add script entry point">
+      <option name="closed" value="true" />
+      <created>1775646735405</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775646735407</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +196,11 @@
     <MESSAGE value="Add pytest and pytest-html dependencies" />
     <MESSAGE value="Update" />
     <MESSAGE value="UpdateAdd read_text_file function" />
+    <MESSAGE value="Add read_text_file function" />
     <MESSAGE value="Add count_sentences function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add count_sentences function" />
+    <MESSAGE value="Add count_words function" />
+    <MESSAGE value="Add analyze_text_file function" />
+    <MESSAGE value="Add script entry point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add script entry point" />
   </component>
 </project>
