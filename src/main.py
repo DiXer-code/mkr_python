@@ -1,3 +1,11 @@
+import re
+
+
 def read_text_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
+
+
+def count_sentences(text):
+    sentence_endings = re.findall(r"\.\.\.|[.!?]", text)
+    return len(sentence_endings)
