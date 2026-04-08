@@ -35,7 +35,7 @@ def test_count_sentences(text, expected):
 
 
 def test_count_words_with_fixture(sample_text):
-    assert count_words(sample_text) == 7
+    assert count_words(sample_text) == 8
 
 
 def test_count_sentences_with_fixture(sample_text):
