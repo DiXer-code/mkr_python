@@ -16,3 +16,11 @@ def count_words(text):
     words = re.split(r"[,\s:;]+", cleaned_text)
     words = [word for word in words if word]
     return len(words)
+
+
+def analyze_text_file(file_path):
+    text = read_text_file(file_path)
+    return {
+        "words": count_words(text),
+        "sentences": count_sentences(text)
+    }
