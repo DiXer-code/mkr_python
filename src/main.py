@@ -24,3 +24,10 @@ def analyze_text_file(file_path):
         "words": count_words(text),
         "sentences": count_sentences(text)
     }
+
+
+if __name__ == "__main__":
+    file_path = input("Enter path to .txt file: ")
+    result = analyze_text_file(file_path)
+    print(f"Words: {result['words']}")
+    print(f"Sentences: {result['sentences']}")
